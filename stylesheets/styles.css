@@ -6,7 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 /*=====================================================
-      Header Formatting
+      Yo this is Header Formatting
 =======================================================*/
 .header {
   height: 180px;
@@ -109,7 +109,7 @@ li {
 
 .name {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 20px;
   padding-top: 15px;
   padding-bottom: 2px;
@@ -168,12 +168,13 @@ li {
   margin-left: 20px;
   font-weight: 400;
   font-size: 12px;
+  padding-bottom: 1px;
 }
 
 .style-type {
   margin-left: 20px;
   padding-bottom: 15px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .streak-div {
