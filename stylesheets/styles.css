@@ -10,9 +10,9 @@ body {
 =======================================================*/
 .header {
   height: 180px;
-  background-color: #484848;
+  background-color: #2b2b2b;
   display: flex;
-  color: grey;
+  color: #979797;
   justify-content: space-between;
 }
 
@@ -53,17 +53,17 @@ li {
 }
 
 /*=====================================================
-      Bodyu Formatting
+      Body Formatting
 =======================================================*/
 
 .member-page {
-  background-color: #EFEFEF;
+  background-color: #fff;
   color: #4E4E4E;
 }
 
 .section {
   height: 90vw;
-  background-color: #EFEFEF;
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -82,13 +82,134 @@ li {
   margin: 1%;
   background-size: 100%;
   background-repeat: no-repeat;
+  color: #2b2b2b;
+  font-size: 12px;
+}
+
+.flip-button {
+  background-image: url(../images/forward-arrow.svg);
 }
 
 .info {
   height: 60%;
-  width: 100%;
-  background-color: #7b7b7a;
+  width: 300px;
+  background-color: #dfdfdf;
   margin-top: 54%;
+  border-radius: 10%;
+  transition: box-shadow .3s;
+}
+
+.info:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.name-div {
+  display: inline-block;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.rank-div {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin: 15px 0 0 115px;
+  text-align: center;
+}
+
+.rank {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.rank-number {
+  font-size: 30px;
+  color: #55b5f7;
+}
+
+.DOB {
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  color: #8a8a8a;
+}
+
+.media-container {
+  margin: 6px 0 10px 20px;
+  width: 240px;
+  height: 30px;
+  padding: 6px;
+  vertical-align: center;
+  background-color: #efefef;
+  color: #979797;
+  border-radius: 5px;
+}
+
+.social-media {
+  color: #979797;
+}
+
+.social-media:hover {
+  color: #2b2b2b;
+}
+
+.social-media:active {
+  color: #55b5f7;
+}
+
+.style {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.style-type {
+  margin-left: 20px;
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+
+.streak-div {
+  display: inline-block;
+}
+
+.streak {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.streak-count {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #55b5f7;
+}
+
+.send-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 170px;
+  background-image: url(../images/forward-arrow.svg);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.send-button:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.send-button:active {
+  background-image: url(../images/forward-arrow-blue.svg);
 }
 
 .card-1 {
