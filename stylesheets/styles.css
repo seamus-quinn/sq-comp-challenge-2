@@ -5,7 +5,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+/*=====================================================
+      Header Formatting
+=======================================================*/
 .header {
   height: 180px;
   background-color: #484848;
@@ -50,19 +52,13 @@ li {
   display: inline-block;
 }
 
-.logo__img {
-  width: 100px;
-  height: 100px;
-}
+/*=====================================================
+      Bodyu Formatting
+=======================================================*/
 
 .member-page {
   background-color: #EFEFEF;
   color: #4E4E4E;
-}
-
-.shares__text {
-  font-size: 32px;
-  padding: 2% 0 1.5% 3%;
 }
 
 .section {
@@ -75,27 +71,77 @@ li {
   align-content: flex-start;
 }
 
+/*=====================================================
+      Card Formatting
+=======================================================*/
+
 .card {
   background-color: #FFFFFF;
   width: 300px;
   height: 400px;
   margin: 1%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.info {
+  height: 60%;
+  width: 100%;
+  background-color: #7b7b7a;
+  margin-top: 54%;
 }
 
 .card-1 {
-  position: relative;
-  z-index: 0;
+  background-image: url(../images/white-furby.jpg);
+}
+
+.card-2 {
+  background-image: url(../images/black-furby.jpg);
+  background-size: 300px 270px;
+}
+
+.card-3 {
+  background-image: url(../images/triangle-furby.jpg);
+  background-size: 300px 260px;
+}
+
+.card-4 {
+  background-image: url(../images/dark-blue-furby.jpg);
+  background-size: 300px 260px;
+}
+
+.card-5 {
+  background-image: url(../images/zebra-furby.jpg);
+  background-size: 300px 270px;
+}
+
+.card-6 {
+  background-image: url(../images/mini-pink-furby.jpg);
+  background-size: 300px 240px;
+}
+
+.card-7 {
+  background-image: url(../images/light-blue-furby.jpg);
+  background-size: 300px 260px;
+}
+
+.card-8 {
+  background-image: url(../images/pink-furby.jpg);
+  background-size: 300px 250px;
 }
 
 .image {
   width: 300px;
   height: 180px;
-  position: absolute;
   z-index: -1;
 }
 
-.card-1__button {
-
+.flip-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url("../images/forward-arrow.svg");
 }
 
 
