@@ -33,6 +33,14 @@ body {
   padding-right: 8px;
 }
 
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item:hover {
+  color: #fff;
+}
+
 .profile {
   width: 230px;
   height: 40px;
@@ -81,14 +89,6 @@ body {
   height: 35px;
   width: 35px;
   transition-duration: 0.5s
-}
-
-li {
-  display: inline-block;
-}
-
-li:hover {
-  color: #fff;
 }
 
 /*=====================================================
@@ -307,7 +307,46 @@ li:hover {
   background-image: url("../images/forward-arrow.svg");
 }
 
+/*=====================================================
+      Media-Queries
+=======================================================*/
 
+@media only screen and (max-width: 860px) {
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+  .nav-bar {
+    order: 2;
+    padding: 0;
+    align-self: center;
+    justify-content: space-around;
+  }
+
+  .profile {
+    text-align: center;
+    order: 3;
+    position: relative;
+  }
+
+  .logo {
+    order: 1;
+    margin-top: 8px;
+    align-self: center;
+  }
+
+  .warrior-page {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+}
 
 
 
