@@ -6,10 +6,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 /*=====================================================
-      Yo this is Header Formatting
+      Header Formatting
 =======================================================*/
 .header {
-  height: 180px;
+  height: 130px;
   background-color: #2b2b2b;
   display: flex;
   color: #979797;
@@ -19,50 +19,91 @@ body {
 .nav-bar {
   align-self: flex-end;
   height: 70px;
-  width: 30%;
+  width: 400px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 18px;
   align-items: center;
-  font-size: 20px;
-  padding-bottom: 1%;
+  padding-left: 60px;
+}
+
+.nav-icon {
+  height: 18px;
+  width: 18px;
+  padding-right: 8px;
 }
 
 .profile {
   width: 230px;
   height: 40px;
-  text-align: center;
+  font-size: 14px;
+  color: #55b5f7;
+  text-align: right;
   position: absolute;
   right: 0;
-  padding-top: 2%;
+  padding: 8px 30px 0 0;
+}
+
+.profile-icon {
+  height: 18px;
+  width: 18px;
+  padding: 2px 7px 0 0;
+}
+
+.profile-arrow {
+  height: 12px;
+  width: 12px;
+  padding-left: 5px;
+  transition: 1s;
+}
+
+.profile-arrow:hover {
+  transform: rotate(360deg);
 }
 
 .logo {
   align-self: flex-end;
-  width: 230px;
-  height: 80px;
-  margin: 0;
-}
-.logo-img {
-  width: 230px;
-  height: 80px;
+  font-family: 'Luckiest Guy', cursive;
+  color: #fff;
+  font-size: 50px;
+  width: 350px;
+  height: 40px;
+  margin: 0 30px 15px 0;
+  text-align: right;
+  transition-duration: 0.5s
 }
 
+.logo:hover {
+  margin: 0 28px 13px 0;
+}
+
+.logo-image {
+  height: 35px;
+  width: 35px;
+  transition-duration: 0.5s
+}
 
 li {
   display: inline-block;
+}
+
+li:hover {
+  color: #fff;
 }
 
 /*=====================================================
       Body Formatting
 =======================================================*/
 
-.member-page {
+.warrior-page {
   background-color: #fff;
   color: #4E4E4E;
+  margin: 20px 0 0 60px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .section {
-  height: 90vw;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
