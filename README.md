@@ -4,6 +4,8 @@ This project is a site called Furby Wars.  Furby Wars is a site showcasing diffe
 
 ## Original Comp
 
-![Original Comp](images/my-comp.png)
+![Original Comp](images/original-comp.png)
 
 ## My Comp
+
+![My Comp](images/my-comp.png)
